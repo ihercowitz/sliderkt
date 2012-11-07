@@ -1,8 +1,9 @@
-##SlideShow Racket Improvements
+#SlideShow Racket Improvements
 This is a trying to make slideshow animations and other stuffs more simple in Racket
 
-#### Sample test code
+## Sample test code
 
+```
 #lang slideshow
 (require "slideimpr.rkt")
 
@@ -13,3 +14,4 @@ This is a trying to make slideshow animations and other stuffs more simple in Ra
 (slide
  #:name "slide1"
   (para #:align 'center (big-text "Teste slide 1")))
+```
