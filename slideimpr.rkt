@@ -1,12 +1,14 @@
 #lang racket/base
 
+;This is a trying to make slideshow animations and other stuffs
+;more simple in Racket
+
 (require slideshow
          slideshow/play)
 
 (provide fade-item
          scale-item
          big-text)
-
 
 (define (big-text tx) (text tx (current-main-font) 64))
 
@@ -24,6 +26,3 @@
 (define (fade-item an)
  (animate cellophane an)) 
 
-(define (scale-item an)
-  (animate scale an)
-)
